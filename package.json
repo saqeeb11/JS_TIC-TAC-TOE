@@ -1,0 +1,21 @@
+{
+  "name": "js_tic-tac-toe-game",
+  "version": "1.0.0",
+  "description": "simple tic-tac-toe game",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/saqeeb11/js_TIC-TAC-TOE-GAME"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "javascript",
+    "tic-tac-toe"
+  ],
+  "author": "saqeeb11",
+  "license": "ISC"
+}
