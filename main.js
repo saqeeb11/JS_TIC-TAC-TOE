@@ -1,3 +1,6 @@
+let scoreX = 0;
+let scoreO = 0;
+
 function placeMark(cell){  
     if(notWon()){
         var button = document.getElementById('b'+cell);
@@ -82,6 +85,15 @@ function checkWin(){
 
         var result = document.getElementById('result-display');
         result.textContent = `Player ${char} wins`;
+
+        if(char==='X'){
+            scoreX++
+        }else{
+            scoreO++
+        }
+
+        document.getElementById('scoreX').innerText = scoreX;
+        document.getElementById('scoreO').innerText = scoreO;
 
     }
 

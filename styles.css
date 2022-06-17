@@ -13,6 +13,25 @@ body{
 	font-size: 25px;
 }
 
+.scores{
+	position: absolute;
+	top: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.scores p{
+	margin: 0px 20px;
+}
+
+.scoreX{
+	color: red;
+}
+
+.scoreO{
+	color: blue;
+}
+
 h1, h3{
 	color: #000000;
 }
